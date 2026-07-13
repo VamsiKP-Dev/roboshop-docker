@@ -12,7 +12,7 @@ services:
     - mongodb
   frontend:
     build: ./frontend
-    image: joindevops/frontend:v2
+    image: joindevops/frontend:v1
     container_name: frontend
     ports:
       - "80:80"
